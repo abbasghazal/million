@@ -1,4 +1,4 @@
-# @SHAHM4 & @BGGlG
+# @SHAHM4 & @LGGBG
 from telebot import TeleBot
 from telebot.types import InlineKeyboardMarkup as Keyboard, InlineKeyboardButton as Button, Message, CallbackQuery
 from telebot import types
@@ -37,7 +37,7 @@ def start(message: Message):
 {best_players}
 """
         markup = Keyboard(
-            [  # @SHAHM & @BGGlG
+            [  # @SHAHM & @LGGBG
                 [
                     Button("- قواعد اللعبة -", callback_data=f"rules-{user_id}"),
                     Button("- إبدأ اللعب -", callback_data=f"play-{user_id}")
@@ -59,7 +59,7 @@ def start(message: Message):
         n = bot.get_chat("@bgglg").title
         mar = f"""[{n}](t.me/bgglg)"""
         k = types.InlineKeyboardMarkup()
-        k1 = types.InlineKeyboardButton(f"{n}", url=f"t.me/bgglg")
+        k1 = types.InlineKeyboardButton(f"{n}", url=f"t.me/lggbg")
         k.add(k1)
         bot.send_message(message.chat.id, """ *عزيزي  - *[{}](t.me/{})  
         لا يمكنك البدء في اللعبة لأنك غير مشترك في قناة المجموعة ؛ ✅
