@@ -8,7 +8,7 @@ import time
 import os
 import threading
 import requests
-bot_token = "6687297679:AAFO_Ojp-heAbizzYn9ylqWR4IQLzDzG0_k"
+bot_token = "8192202802:AAGXwMFwGGhlALcb3b5BZzaDU7cS-12o058"
 bot = TeleBot(bot_token, parse_mode="Markdown")
 db_path = "MillionUsers.json"
 db_bests = "Millioners.json"
